@@ -26,16 +26,6 @@ module.exports = {
 }
 ```
 
-or a _.eslintrc_ file ( non js )
-
-`.eslintrc`
-```json
-{
-  "extends": ["@jensneuber/eslint-config-react-native"],
-  "rules": {}
-}
-```
-
 ### Customization
 To make the transition to an eslinted project easier, you may soften some rules at the beginning.
 
@@ -49,3 +39,17 @@ rules: {
 ```
 
 
+## Matching .prettierrc file
+
+`.prettierrc.js`
+```javascript
+module.exports = {
+  arrowParens: "always",
+  bracketSameLine: true,
+  bracketSpacing: true,
+  printWidth: 120,
+  semi: false,
+  singleQuote: true,
+  trailingComma: 'all',
+}
+```
